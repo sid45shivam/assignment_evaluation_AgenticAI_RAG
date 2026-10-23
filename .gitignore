@@ -1,0 +1,60 @@
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Vector Database (Local persistent storage should be built via `python rag_pipeline.py ingest`)
+chroma_db/
+*test_chroma_db*/
+*empty_test_db*/
+*.sqlite3
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.env
+*.key
+*.pem
+secrets/
+
+# Operating System & IDE Artifacts
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Testing, Logs & Scratch Files
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+scratch/
+tmp/
+.tmp/
+
+# Live / Private student submissions and runs (protects confidentiality)
+*private_*
+*confidential_*
+real_submissions/
+real_findings/
+
+# Generated evaluation outputs
+Summary/
+evaluation_findings/
+verification_findings/
+quality_findings/
+feedback/

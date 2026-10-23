@@ -1,0 +1,14 @@
+# Core Vector Database and Embeddings
+chromadb>=0.4.22
+sentence-transformers>=2.2.2
+onnxruntime>=1.16.0
+tokenizers>=0.15.0
+
+# Document Parsers
+pypdf>=4.0.0
+
+# Numerical & Verification Support
+numpy>=1.24.0
+
+# Optional LLM integration (for generation if API key is provided)
+# openai>=1.0.0
