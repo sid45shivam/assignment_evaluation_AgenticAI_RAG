@@ -1,0 +1,63 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources 5 0 R /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources 5 0 R /Contents 7 0 R >>
+endobj
+5 0 obj
+<< /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> >> >>
+endobj
+6 0 obj
+<< /Length 747 >>
+stream
+BT
+/F1 14 Tf
+50 720 Td (REFERENCE CHAPTER: SUPPLY CHAIN NETWORK STRATEGY - PART 1) Tj
+/F1 10 Tf
+0 -30 Td (Centralized vs Decentralized Distribution Networks:) Tj
+0 -20 Td (Centralized warehousing maximizes inventory risk pooling and minimizes total facility overhead.) Tj
+0 -20 Td (However, centralization exposes companies to long customer delivery lead times and high outbound shipping.) Tj
+0 -20 Td (Regional warehouses locate stock closer to demand clusters, dramatically improving delivery responsiveness.) Tj
+0 -20 Td (Decentralized regional networks require higher aggregate safety stock across all holding nodes.) Tj
+0 -20 Td (Regional setups are advantageous when customer service level expectations demand 24 to 48-hour delivery.) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Length 774 >>
+stream
+BT
+/F1 14 Tf
+50 720 Td (REFERENCE CHAPTER: SUPPLY CHAIN NETWORK STRATEGY - PART 2) Tj
+/F1 10 Tf
+0 -30 Td (Advanced Network Structures: Hybrid Hub-and-Spoke Architectures:) Tj
+0 -20 Td (A hybrid network maintains central warehousing for slow-moving, high-value SKUs with high variability.) Tj
+0 -20 Td (Meanwhile, fast-moving, high-demand items are positioned in regional cross-docks or regional forward nodes.) Tj
+0 -20 Td (This balances inventory carrying costs through risk pooling while meeting stringent local responsiveness.) Tj
+0 -20 Td (Evaluation guideline: In case analysis, both centralized, regional, and hybrid recommendations can be) Tj
+0 -20 Td (academically valid if backed by sound trade-off analysis of transportation, inventory, and responsiveness.) Tj
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000225 00000 n 
+0000000329 00000 n 
+0000000421 00000 n 
+0000001218 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+2042
+%%EOF

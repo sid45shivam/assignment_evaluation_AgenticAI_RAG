@@ -1,0 +1,44 @@
+COURSE HANDOUT: INVENTORY THEORY & ECONOMIC ORDER QUANTITY (EOQ)
+
+1. The Classic EOQ Model
+The Economic Order Quantity (EOQ) model determines the optimal order quantity that minimizes the sum of inventory holding costs and ordering costs.
+
+Core Assumptions:
+- Annual demand (D) is known, constant, and deterministic over the planning horizon.
+- Ordering cost (S) per order is fixed regardless of order quantity.
+- Unit purchase cost (C) is constant with no quantity discounts.
+- Holding cost per unit per year (H or hC) is known and linear.
+- Lead time is zero or constant.
+- Entire order arrives in a single replenishment batch; stockouts are not permitted.
+
+2. Mathematical Formulations:
+- Annual Ordering Cost = (D / Q) * S
+  Where (D / Q) represents the total number of replenishment orders placed annually.
+- Annual Holding (Carrying) Cost = (Q / 2) * H
+  Where (Q / 2) represents the average cycle inventory maintained throughout the year.
+- Total Relevant Cost (TRC) = Annual Ordering Cost + Annual Holding Cost
+  TRC(Q) = (D / Q) * S + (Q / 2) * H
+
+3. Optimal Solution:
+Setting the derivative d(TRC)/dQ to 0 yields:
+EOQ = Q* = sqrt((2 * D * S) / H)
+
+Critical Equilibrium Property:
+At the optimal order quantity (Q = Q*):
+Annual Ordering Cost EXACTLY EQUALS Annual Holding Cost:
+(D / Q*) * S = (Q* / 2) * H = sqrt((D * S * H) / 2)
+Therefore, Total Relevant Inventory Cost at EOQ is:
+TRC* = 2 * sqrt((D * S * H) / 2) = sqrt(2 * D * S * H)
+
+Example Application:
+Given D = 10,000 units, S = ₹500, H = ₹20:
+EOQ = sqrt((2 * 10,000 * 500) / 20) = sqrt(500,000) ≈ 707.11 units.
+Annual Ordering Cost = (10,000 / 707.11) * 500 = ₹7,071.07.
+Annual Holding Cost = (707.11 / 2) * 20 = ₹7,071.10.
+Total Relevant Cost = ₹7,071.07 + ₹7,071.10 = ₹14,142.14.
+Rounding approximations to whole integers or standard decimal fractions are standard academic practice.
+
+4. Inventory Pooling & The Square Root Law
+When multiple independent regional distribution points are consolidated into a single centralized warehouse, aggregate cycle stock and safety stock decrease proportionally to the square root of the number of locations:
+Total Safety Stock (Centralized) = Total Safety Stock (Decentralized) / sqrt(N)
+Where N is the number of regional holding locations, assuming uncorrelated demand.
